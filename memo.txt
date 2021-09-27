@@ -1,0 +1,37 @@
+pip install mlbgame --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org
+
+pip install 뒤에 --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org 를 쓰면 install이 됨
+
+***OEMCP 65001 UTF-8  CMD 기본속성 변경***
+컴퓨터\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Nls\CodePage  OEMCP   949 -->65001
+###그때 그때 필요시 바꿈. then, cmd properties에서 font consolas로 바꿈##
+chcp 65001 
+
+***regedit (regestry editor 들어가기)***
+
+***python module 설치 위치***
+python >> lib >> site-pachages >> ???
+
+import [module name]
+print([module name].__file__)
+
+***Path 추가***
+right-click My Computer, in the pop-up menu, click Properties.
+click the Advanced tab, and then click Environment Variables.
+in the System Variables window, highlight Path, and click Edit.
+In the Edit System Variables window, insert the cursor at the end of the Variable value field.
+If the last character is not a semi-colon (;), add one.
+After the final semi-colon, type the full path to the file you want to find.
+For example: path C:\jdk
+Click OK in each open window.
+The new path will be used the next time a command prompt is opened, or a service is started.
+
+****pip upgrade****
+python -m pip install --upgrade pip
+
+***web server***
+myPC
+http://127.0.0.1
+localhost
+http://localhost/index.html
+10.170.22.10
