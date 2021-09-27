@@ -35,3 +35,8 @@ http://127.0.0.1
 localhost
 http://localhost/index.html
 10.170.22.10
+
+***웹사이트 수업***
+생활코딩 Web1 CSS 등 followthrough github에 동일 저장
+Bitnami apache2 폴더 위치: C:\Bitnami\wampstack-7.4.11-0\apache2\htdocs
+
